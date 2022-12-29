@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 450px) {
+    body {
+        width: 40%;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-height: 10rem;
+    max-width: 10rem;
+    background: rgba(255, 255, 255, 0);
+    padding: 2.5rem;
+}
+
+.logo {
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.store,
+.contact,
+.about,
+.cart {
+    margin: 0 3.5rem 0 3.5rem;
+    font-size: 1.375rem;
+    font-style: bold;
+    font-family: 'Audiowide';
+    color: black;
+}
+
+.search {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#search {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    color: grey;
+    width: 18.90625rem;
+}
