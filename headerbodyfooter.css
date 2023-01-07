@@ -36,7 +36,7 @@ body {
 
 .logo img {
     justify-content: center;
-    width: clamp(4rem, 3.1429rem + 5.7143vw, 10rem);
+    width: clamp(5rem, 4.2857rem + 4.7619vw, 10rem);
     margin-top: calc(1rem + (2 - 1) * ((100vw - 240px) / (100 - 1920)));
     margin-bottom: calc(0.5rem + (0.7 - 0.5) * ((100vw - 240px) / (100 - 1920)));
 }
