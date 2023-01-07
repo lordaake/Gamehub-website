@@ -11,18 +11,13 @@ main {
     margin: 3.125rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 0.625rem;
-    height: calc(10rem + (48.25 - 10) * ((100vw - 240px) / (100 - 2560)));
-    width: calc(15rem + (30.75 - 15) * ((100vw - 240px) / (100 - 2560)));
+    width: clamp(12.5rem, 7.1964rem + 35.3571vw, 49.625rem);
 }
 
-@media (min-width: 100px) and (max-width: 423px) {
-    .banners {
-        height: 10rem;
-        width: 15rem;
-    }
-}
+/* calc(initial value + (final value - initial value) * ((100vw - minimum width) / (maximum width - minimum width))) */
 
 
-/*  height: calc(15.375rem + (30.75 - 15.375) * ((100vw - 240px) / (100 - 2560)));
-width: calc(24.225rem + (48.45 - 24.225) * ((100vw - 240px) / (100 - 2560)));
-margin: calc(0.52rem + (3.125 - 0.52) * ((100vw - 240px) / (100 - 2560))); */
+
+/*  height: calc(15.375rem + (30.75 - 15.375) * ((100vw - 240px) / (100 - 1920)));
+width: calc(24.225rem + (48.45 - 24.225) * ((100vw - 240px) / (100 - 1920)));
+margin: calc(0.52rem + (3.125 - 0.52) * ((100vw - 240px) / (100 - 1920))); */
