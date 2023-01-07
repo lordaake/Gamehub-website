@@ -10,9 +10,16 @@
     width: clamp(12.5rem, 7.1964rem + 35.3571vw, 49.625rem);
 }
 
-@media (min-width: 240px) and (max-width: 600px) {
+@media (min-width: 350px) and (max-width: 600px) {
     .banners {
-        clamp(15rem, 11.7857rem + 21.4286vw, 37.5rem);
+        width: 327px;
+    }
+
+}
+
+@media (min-width: 240px) and (max-width: 350px) {
+    .banners {
+        width: clamp(15rem, 3.1364rem + 79.0909vw, 20.4375rem);
     }
 
 }
