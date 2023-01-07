@@ -13,7 +13,7 @@
     color: white;
 }
 
-@media (max-width: 260px) {
+@media (max-width: 276px) {
     .container4 {
         height: 10rem;
     }
@@ -98,9 +98,9 @@ body {
     color: #fff;
     background-color: transparent;
     width: clamp(10rem, 8.5714rem + 9.5238vw, 20rem);
-    height: clamp(1rem, 0.8571rem + 0.9524vw, 2rem);
+    height: clamp(1.5rem, 1.4286rem + 0.4762vw, 2rem);
     align-self: center;
-    margin: 15px 0 15px 0;
+    margin: clamp(0.3125rem, 0.2232rem + 0.5952vw, 0.9375rem);
     padding-left: 2.1875rem;
 }
 
@@ -126,8 +126,8 @@ body {
 #searchbutton {
     position: absolute;
     right: 1;
-    top: 35%;
-    left: 2%;
+    top: 36%;
+    left: 5%;
     z-index: 1;
 }
 
@@ -153,11 +153,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1028.25px;
+    width: clamp(15rem, 7.9621rem + 46.9196vw, 64.265625rem);
     margin: 0 auto;
 }
-
-@media (min-width: 240px) and (max-width: 450px) {}
 
 .socialmedia i {
     margin: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
