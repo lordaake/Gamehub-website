@@ -62,7 +62,7 @@ body {
 .cart {
     font-style: bold;
     font-family: 'Audiowide';
-    font-size: clamp(0.4rem, 0.2714rem + 0.8571vw, 1.3rem);
+    font-size: clamp(0.5rem, 0.3857rem + 0.7619vw, 1.3rem);
     color: rgb(255, 255, 255);
     padding: 1rem;
     padding-bottom: 0.5rem;
