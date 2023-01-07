@@ -24,4 +24,16 @@
 
 }
 
+.gamessites {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.pcxboxplaystation {
+    text-align: center;
+}
+
 /* calc(initial value + (final value - initial value) * ((100vw - minimum width) / (maximum width - minimum width))) */

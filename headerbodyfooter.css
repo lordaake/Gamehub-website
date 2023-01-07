@@ -13,12 +13,6 @@
     color: white;
 }
 
-@media (max-width: 276px) {
-    .container4 {
-        height: 10rem;
-    }
-}
-
 .container2,
 .container3 {
     max-width: 2460px;
@@ -111,7 +105,7 @@ body {
     color: rgba(128, 128, 128, 0.698);
     font-family: 'Audiowide';
     padding-left: 0;
-    font-size: clamp(0.5rem, 0.4571rem + 0.2857vw, 0.8rem);
+    font-size: clamp(0.5rem, 0.4483rem + 0.3448vw, 1rem);
 }
 
 #searchbutton {
@@ -143,18 +137,31 @@ body {
 
 footer {
     background-size: 100%;
-    height: calc(7rem + (8.25 - 7) * ((100vw - 240px) / (100 - 1920)));
+    height: clamp(4rem, 3.5714rem + 2.8571vw, 7rem);
+    margin: 0 auto;
+}
+
+@media (max-width: 240px) {
+    footer {
+        height: 7rem;
+    }
 }
 
 .footbar {
-    padding-top: 1.3rem;
-    max-height: calc(3rem + (6.25 - 3) * ((100vw - 240px) / (100 - 1920)));
+    padding-top: clamp(0.5rem, 0.4286rem + 0.4762vw, 1rem);
+    height: calc(3rem + (6.25 - 3) * ((100vw - 240px) / (100 - 1920)));
+    width: clamp(15rem, 7.9621rem + 46.9196vw, 64.265625rem);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    width: clamp(15rem, 7.9621rem + 46.9196vw, 64.265625rem);
     margin: 0 auto;
+}
+
+@media (max-width: 240px) {
+    .footbar {
+        width: 200px;
+    }
 }
 
 .socialmedia i {
@@ -167,7 +174,7 @@ footer {
 
 .socialmedia p {
     text-align: center;
-    font-size: clamp(0.625rem, 0.5714rem + 0.3571vw, 1rem);
+    font-size: clamp(0.5rem, 0.4286rem + 0.4762vw, 1rem);
     max-width: 100%;
     margin-bottom: 0.3125rem;
     margin-top: 0.1875rem;
@@ -188,24 +195,28 @@ footer {
 .subscribeitems {
     margin: 8px 0 0 0;
     text-align: center;
-    font-size: clamp(0.625rem, 0.5714rem + 0.3571vw, 1rem);
+    font-size: clamp(0.5rem, 0.4286rem + 0.4762vw, 1rem);
 }
 
 #subscribebutton {
-    height: clamp(1rem, 0.9643rem + 0.2381vw, 1.25rem);
-    width: clamp(7rem, 6.2143rem + 5.2381vw, 12.5rem);
-    font-size: clamp(0.625rem, 0.5714rem + 0.3571vw, 1rem);
+    height: clamp(0.5rem, 0.4224rem + 0.5172vw, 1.25rem);
+    width: clamp(5rem, 4.2241rem + 5.1724vw, 12.5rem);
+    font-size: clamp(0.5rem, 0.4286rem + 0.4762vw, 1rem);
     margin-top: calc(0.2rem + (0.625 - 0.2) * ((100vw - 240px) / (100 - 1920)));
     text-align: center;
     align-self: center;
 }
 
+#subscribebutton::placeholder {
+    font-size: clamp(0.4375rem, 0.3793rem + 0.3879vw, 1rem);
+}
+
 #submitemail {
     text-align: center;
-    height: 1.7rem;
-    width: 5rem;
+    height: clamp(1rem, 0.9276rem + 0.4828vw, 1.7rem);
+    width: clamp(2.5rem, 2.2414rem + 1.7241vw, 5rem);
     margin: auto;
-    font-size: clamp(0.625rem, 0.5714rem + 0.3571vw, 1rem);
+    font-size: clamp(0.4rem, 0.3379rem + 0.4138vw, 1rem);
     margin-top: calc(0.2rem + (0.625 - 0.2) * ((100vw - 240px) / (100 - 1920)));
     border-radius: 5px;
 }
