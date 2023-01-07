@@ -97,8 +97,8 @@ body {
     line-height: 0.9375rem;
     color: #fff;
     background-color: transparent;
-    max-width: calc(20rem + (2 - 20) * ((100vw - 240px) / (1920 - 240)));
-    height: 2rem;
+    width: clamp(10rem, 8.5714rem + 9.5238vw, 20rem);
+    height: clamp(1rem, 0.8571rem + 0.9524vw, 2rem);
     align-self: center;
     margin: 15px 0 15px 0;
     padding-left: 2.1875rem;
@@ -111,7 +111,7 @@ body {
     color: rgba(128, 128, 128, 0.698);
     font-family: 'Audiowide';
     padding-left: 0;
-    font-size: clamp(0.5rem, 0.2714rem + 0.8571vw, 1.3rem);
+    font-size: clamp(0.5rem, 0.4571rem + 0.2857vw, 0.8rem);
 }
 
 #searchbutton {
