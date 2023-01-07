@@ -10,6 +10,7 @@
 .container4 {
     width: auto;
     background-color: rgba(65, 20, 102, 1);
+    background-repeat: no-repeat;
     color: white;
 }
 
