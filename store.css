@@ -72,25 +72,3 @@
 
     background-color: transparent;
 }
-
-.carousel__skip-link {
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    top: auto;
-    width: 1px;
-}
-
-.carousel__skip-link:focus {
-    align-items: center;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    font-size: 30px;
-    height: 680px;
-    justify-content: center;
-    opacity: .8;
-    text-decoration: none;
-    width: 100%;
-    z-index: 1;
-}
