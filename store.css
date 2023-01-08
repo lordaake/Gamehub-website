@@ -22,11 +22,8 @@
     border-radius: 10px;
     display: flex;
     flex-shrink: 0;
-    font-size: 100px;
     padding-top: 20px;
-    padding-bottom: 20px;
     justify-content: center;
-    margin: 0 1rem;
     position: relative;
     transform: scale(1);
     transform-origin: center center;
@@ -34,13 +31,8 @@
     width: 100%;
 }
 
-.carousel_nav {
-    padding: 1.25rem .5rem;
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    top: 60%;
-}
+
+.carousel_nav {}
 
 .slider-nav {
     align-items: center;
@@ -49,7 +41,7 @@
     color: rgba(0, 0, 0, 0);
     display: inline-flex;
     justify-content: center;
-    padding: .5rem;
+    padding: clamp(0.25rem, 0.2143rem + 0.2381vw, 0.5rem);
     position: relative;
     text-decoration: none;
 }
@@ -71,4 +63,12 @@
 .slide-3 {
 
     background-color: transparent;
+}
+
+.images {
+    width: clamp(15rem, 8.8214rem + 41.1905vw, 58.25rem);
+}
+
+.buttons {
+    width: clamp(0.78125rem, 0.6696rem + 0.744vw, 1.5625rem);
 }
