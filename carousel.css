@@ -1,0 +1,97 @@
+.carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slides {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+    display: none;
+}
+
+.slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    height: 600px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 100%;
+}
+
+.carousel_nav {
+    padding: 1.25rem .5rem;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 45%;
+}
+
+.slider-nav {
+    align-items: center;
+    background-color: rgba(221, 221, 221, 0);
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+    color: #000;
+}
+
+.slide-1 {
+    background-color: transparent;
+}
+
+.slide-2 {
+    background-color: transparent;
+
+}
+
+.slide-3 {
+
+    background-color: transparent;
+}
+
+.carousel__skip-link {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+
+.carousel__skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 680px;
+    justify-content: center;
+    opacity: .8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+}

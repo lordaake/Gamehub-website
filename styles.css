@@ -10,44 +10,72 @@
     width: clamp(12.5rem, 7.1964rem + 35.3571vw, 49.625rem);
 }
 
-@media (min-width: 350px) and (max-width: 600px) {
-    .banners {
-        width: 327px;
-    }
-
-}
-
-@media (min-width: 240px) and (max-width: 350px) {
-    .banners {
-        width: clamp(15rem, 3.1364rem + 79.0909vw, 20.4375rem);
-    }
-
-}
-
 .gamessites {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     grid-template-rows: repeat(3, cover);
 }
 
-.pcxboxplaystation {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
 .games {
-    margin-top: 30px;
+    margin-top: clamp(0.46875rem, 0.2679rem + 1.3393vw, 1.875rem);
 }
 
 #playboxgames {
     padding-bottom: 30px;
 }
 
+
+#playstationgames,
+#Pcgames,
+#xboxgames {
+    width: clamp(4.5rem, 2.9107rem + 10.5952vw, 15.625rem);
+    height: clamp(4.5rem, 2.9107rem + 10.5952vw, 15.625rem);
+}
+
+#explorestore,
+#playboxgames,
+.pcxboxplaystation {
+    width: clamp(20.4375rem, 13.9307rem + 29.7452vw, 49.625rem);
+}
+
+.pcxboxplaystation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 #explorestore:hover {
     content: url('images/Explore\ store\ Active.png')
 }
+
+#playstationgames:hover {
+    content: url('images/PlaystationGames\ Active.png')
+}
+
+#Pcgames:hover {
+    content: url('images/PC\ Games\ Active.png')
+}
+
+#xboxgames:hover {
+    content: url('images/Xbox\ Active.png')
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+    .banners {
+        width: 327px;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 350px) {
+
+    .banners,
+    #explorestore,
+    #playboxgames,
+    .pcxboxplaystation {
+        width: clamp(15rem, 3.1364rem + 79.0909vw, 20.4375rem);
+    }
+}
+
 
 /* calc(initial value + (final value - initial value) * ((100vw - minimum width) / (maximum width - minimum width))) */
