@@ -1,15 +1,3 @@
-.frontpagebanners {
-    display: flex;
-    justify-content: center;
-}
-
-.banners {
-    margin-top: clamp(0.5rem, 0.125rem + 2.5vw, 3.125rem);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 0.625rem;
-    width: clamp(12.5rem, 7.1964rem + 35.3571vw, 49.625rem);
-}
-
 .gamessites {
     display: grid;
     justify-content: center;
@@ -62,14 +50,14 @@
 }
 
 @media (min-width: 350px) and (max-width: 600px) {
-    .banners {
+
+    .images {
         width: 327px;
     }
 }
 
 @media (min-width: 240px) and (max-width: 350px) {
 
-    .banners,
     #explorestore,
     #playboxgames,
     .pcxboxplaystation {

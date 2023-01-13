@@ -1,0 +1,30 @@
+#store {
+    color: white;
+}
+
+#xbox {
+    color: rgba(191, 141, 224, 1)
+}
+
+.storeimagecontainerplaystation {
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.storeimagediv {
+    margin-bottom: 0;
+}
+
+.xboxsale {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: clamp(0.3125rem, 0.1089rem + 0.5429vw, 0.625rem);
+    width: clamp(23.75rem, 5.84rem + 47.76vw, 51.241875rem);
+}
+
+@media (max-width: 380px) {
+    .xboxsale {
+        width: clamp(14.375rem, -1.1607rem + 103.5714vw, 23.4375rem);
+    }
+
+}

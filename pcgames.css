@@ -1,0 +1,15 @@
+#store {
+    color: white;
+}
+
+#pcgames {
+    color: rgba(191, 141, 224, 1)
+}
+
+.storeimagecontainerplaystation {
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.storeimagediv {
+    margin-bottom: 0;
+}

@@ -1,0 +1,15 @@
+#store {
+    color: white;
+}
+
+#playstation {
+    color: rgba(191, 141, 224, 1)
+}
+
+.storeimagecontainerplaystation {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.storeimagediv {
+    margin-bottom: 0;
+}

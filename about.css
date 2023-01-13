@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+}
+
+.aboutdiv {
+    background: #F3F3F3;
+    border: 0.1875rem solid #7603AC;
+    border-radius: 1.125rem;
+    max-width: clamp(14.375rem, 9.2857rem + 33.9286vw, 50rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    height: 100%;
+}
+
+.aboutus {
+    padding: 8%;
+    text-align: left;
+}
+
+.aboutus h1 {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.3rem, 1.0752rem + 1.4988vw, 2.5rem);
+    line-height: clamp(1.5rem, 1.0316rem + 3.1226vw, 4rem);
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.aboutustext {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.5rem, 0.3126rem + 1.249vw, 1.5rem);
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+.contacticons {
+    max-width: 275px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1024px) {
+
+    .aboutus {
+        padding: 5%;
+        max-width: 60%;
+    }
+
+
+    .aboutustext {
+        max-width: 100%;
+
+    }
+
+    .aboutdiv {
+        max-width: 90%;
+        height: 95%;
+    }
+}
