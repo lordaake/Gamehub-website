@@ -7,6 +7,11 @@ body {
     font-family: 'Baloo 2';
 }
 
+.navigation li {
+    list-style-type: none;
+}
+
+
 .container1 {
     background-blend-mode: soft-light;
     background: linear-gradient(177.8deg, #460180 5.57%, #1d101000 98.2%);
@@ -138,14 +143,14 @@ body {
 }
 
 footer {
+    display: flex;
+    align-items: center;
     background-size: 100%;
     height: clamp(5rem, 4.2857rem + 4.7619vw, 10rem);
     margin: 0 auto;
 }
 
 .footbar {
-    padding-top: 2%;
-    height: calc(3rem + (6.25 - 3) * ((100vw - 240px) / (100 - 1920)));
     width: clamp(15rem, 7.9621rem + 46.9196vw, 64.265625rem);
     display: flex;
     flex-wrap: wrap;
@@ -171,6 +176,7 @@ footer {
     margin-bottom: 0.3125rem;
     margin-top: 0.1875rem;
     margin-bottom: calc(0.1rem + (0.3125 - 0.1) * ((100vw - 240px) / (100 - 1920)));
+    text-decoration: none;
 }
 
 #logofooter {
