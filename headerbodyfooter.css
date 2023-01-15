@@ -20,18 +20,7 @@ body {
     border-bottom: 1px solid transparent;
 }
 
-.container4 {
-    width: auto;
-    background-color: rgba(65, 20, 102, 1);
-    background-repeat: no-repeat;
-    color: white;
-}
-
-.container2,
-.container3 {
-    max-width: 2460px;
-    margin: 0 auto;
-}
+.container4 {}
 
 .logo img {
     justify-content: center;
@@ -143,11 +132,14 @@ body {
 }
 
 footer {
-    display: flex;
-    align-items: center;
+    width: auto;
+    background-color: rgba(65, 20, 102, 1);
+    background-repeat: no-repeat;
+    color: white;
     background-size: 100%;
     height: clamp(5rem, 4.2857rem + 4.7619vw, 10rem);
     margin: 0 auto;
+    height: auto;
 }
 
 .footbar {
@@ -157,6 +149,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    height: auto;
 }
 
 

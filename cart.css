@@ -35,9 +35,14 @@ main {
     border-radius: 5px 0 0 0;
 }
 
+#shippingli,
+#checkoutli {
+    background-color: grey;
+}
+
 h1 {
     height: fit-content;
-    font-family: 'Inter';
+    font-family: 'Baloo 2';
     font-weight: bolder;
     font-size: clamp(0.625rem, 0.4714rem + 1.0238vw, 1.7rem);
     line-height: 140%;
@@ -70,7 +75,7 @@ h1 {
 }
 
 .product p {
-    font-family: 'Inter';
+    font-family: 'Baloo 2';
     font-style: normal;
     font-weight: 500;
     font-size: clamp(0.5rem, 0.3661rem + 0.8929vw, 1.4375rem);
@@ -135,7 +140,7 @@ h1 {
     margin: 0 auto;
     color: white;
     margin-bottom: 3%;
-    font-size: clamp(0.5rem, 0.4527rem + 0.3155vw, 0.83125rem);
+    font-size: clamp(0.5rem, 0.4143rem + 0.5714vw, 1.1rem);
 }
 
 .shoppingcart a {

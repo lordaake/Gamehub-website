@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="headerbodyfooter.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="shippingdetails.css">
     <script src="https://kit.fontawesome.com/eb8a099288.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,27 +58,66 @@
     </div>
 
     <main>
-        <div class="aboutdiv">
-            <div class="aboutus">
-                <h1>About us</h1>
-                <p class="aboutustext">Gamehub is the shop for all the best Playbox games available on the market right
-                    now.
-                <p class="aboutustext">
-                    Our company started in the year of 2021 and has since then become a hugely popular site for all
-                    playbox gamers.
-                </p>
-                <p class="aboutustext">
-                    Vel eros donec ac odio tempor orci dapibus ultrices in. Fusce ut placerat orci nulla pellentesque
-                    dignissim enim sit amet. Integer vitae justo eget magna fermentum iaculis eu. Duis at tellus at urna
-                    condimentum mattis. Urna condimentum mattis pellentesque id nibh tortor. Et tortor consequat id
-                    porta nibh. Faucibus vitae aliquet nec ullamcorper sit amet. Sed blandit libero volutpat sed. Magna
-                    sit amet purus gravida quis blandit turpis cursus in. Nunc sed augue lacus viverra vitae congue.
-                </p>
-                </p>
+        <div class="cartnav">
+            <div class="cartnavitemdiv" id="cartli">
+                <li class="cartnavitem">Cart</li>
             </div>
-
+            <div class="cartnavitemdiv" id="shippingli">
+                <li class="cartnavitem">Shipping details</li>
+            </div>
+            <div class="cartnavitemdiv" id="checkoutli">
+                <li class="cartnavitem">Checkout</li>
+            </div>
         </div>
+        <div class="shoppingcart">
 
+            <h1>Delivery Information</h1>
+
+            <form class="deliveryinformation">
+                <div class="information">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name"><br>
+                </div>
+
+
+                <div class="information">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name"><br>
+                </div>
+
+
+                <div class="information">
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" placeholder="Company"><br>
+                </div>
+
+                <div class="information">
+                    <label for="address">Address:</label>
+                    <input type="address" id="address" name="address" placeholder="Address"><br>
+                </div>
+
+                <div class="information">
+                    <label for="address2">Address 2:</label>
+                    <input type="address2" id="address2" name="address2" placeholder="Address 2"><br>
+                </div>
+
+                <div class="information">
+                    <label for="dateofbirth">Date Of Birth:</label>
+                    <input type="dateofbirth" id="dateofbirth" name="dateofbirth" placeholder="Date Of Birth"><br>
+                </div>
+
+                <div class="information">
+                    <label for="country">Country:</label>
+                    <input type="country" id="country" name="country" placeholder="Country"><br>
+                </div>
+
+                <div class="information">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                </div>
+            </form>
+            <button class="buttonshipping"><a href="checkout.html">Go to Checkout</a></button>
+        </div>
     </main>
     <footer>
         <div class="footbar">
