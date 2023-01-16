@@ -1,11 +1,14 @@
 body {
     background: linear-gradient(180deg, rgba(55, 54, 73, 0.81) 17.49%, rgba(53, 52, 119, 0.47) 96.06%);
     background-blend-mode: soft-light;
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     font-family: 'Baloo 2';
+
 }
+
+html {}
 
 .navigation li {
     list-style-type: none;
@@ -19,8 +22,6 @@ body {
     box-shadow: 0 0 8px 8px #1d101055;
     border-bottom: 1px solid transparent;
 }
-
-.container4 {}
 
 .logo img {
     justify-content: center;
@@ -132,14 +133,11 @@ body {
 }
 
 footer {
-    width: auto;
+    display: flex;
+    width: 100%;
     background-color: rgba(65, 20, 102, 1);
-    background-repeat: no-repeat;
     color: white;
-    background-size: 100%;
     height: clamp(5rem, 4.2857rem + 4.7619vw, 10rem);
-    margin: 0 auto;
-    height: auto;
 }
 
 .footbar {
@@ -149,10 +147,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    height: auto;
 }
-
-
 
 .socialmedia i {
     margin: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
