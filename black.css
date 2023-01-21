@@ -6,7 +6,7 @@
     margin: 0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 60%;
+    width: 50%;
     height: fit-content;
     background: #290332;
     border: 5px solid #000000;
@@ -106,7 +106,6 @@ h4 {
     background: rgba(255, 255, 255, 0.89);
     border: 1px solid #3FA535;
     border-radius: 1px;
-    value: '';
 }
 
 .reviewtext {
