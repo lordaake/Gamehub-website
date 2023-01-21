@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="headerbodyfooter.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="checkout.css">
     <script src="https://kit.fontawesome.com/eb8a099288.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +21,6 @@
 </head>
 
 <body>
-
     <header>
         <div class="logo">
             <a href="index.html">
@@ -52,51 +53,41 @@
     </header>
 
     <main>
-        <!-- Carousel 1. Frontpage Banner-->
-        <section class="carousel" aria-label="carousel" Tabindex="0">
-            <div class="slides">
-                <div class="slides-item slide-1" id="slide-1"><a href="store.html"><img
-                            src="/images/Carousels/Index/Newplayboxreleases2.png" alt="img1" class="images"></a>
-                </div>
-                <div class="slides-item slide-2" id="slide-2"><a href="xbox.html"><img
-                            src="/images/Carousels/Index/Gamehub banner 2.png" alt="img2" class="images"></a></div>
-                <div class="slides-item slide-3" id="slide-3"><a href="playstation.html"><img
-                            src="/images/Carousels/Index/banner 3.png" alt="img3" class="images"></a></div>
+        <div class="cartnav">
+            <div class="cartnavitemdiv" id="cartli">
+                <li class="cartnavitem"><a href="cart.html">Cart</a></li>
             </div>
-            <div class="carousel_nav">
-                <a class="slider-nav" href="#slide-1"><img src="/images/Carousels/Store/Inactive.png" alt="button1"
-                        class="buttons"></a>
-                <a class="slider-nav" href="#slide-2"><img src="/images/Carousels/Store/Inactive.png" alt="button2"
-                        class="buttons"></a>
-                <a class="slider-nav" href="#slide-3"><img src="/images/Carousels/Store/Inactive.png" alt="button3"
-                        class="buttons"></a>
+            <div class="cartnavitemdiv" id="shippingli">
+                <li class="cartnavitem"><a href="shippingdetails.html">Shipping details</a></li>
             </div>
-            <div class="frontpagebanners">
-                <div class="gamessites">
-                    <div class="explorestore games">
-                        <a href="store.html">
-                            <img src="images/Explore store.png" alt="Explore Store" id="explorestore">
-                        </a>
-                    </div>
-                    <div class="pcxboxplaystation games">
-                        <a href="playstation.html">
-                            <img src="images/PlaystationGames.png" alt="Playstation Games" id="playstationgames"
-                                class="smallimages">
-                        </a>
-                        <a href="pcgames.html">
-                            <img src="images/PC Games.png" alt="PC Games" id="Pcgames" class="smallimages">
-                        </a>
-                        <a href="xbox.html">
-                            <img src="images/Xbox Games.png" alt="Xbox Games" id="xboxgames" class="smallimages">
-                        </a>
-                    </div>
-                    <div class="playbox games">
-                        <a href="store.html"><img src="images/PlayboxGaes.png" alt="Playbox Games"
-                                id="playboxgames"></a>
-                    </div>
+            <div class=" cartnavitemdiv" id="checkoutli">
+                <li class="cartnavitem">Checkout</li>
+            </div>
+        </div>
+        <div class="shoppingcart">
+
+            <h1>Checkout</h1>
+
+            <form class="deliveryinformation">
+                <div class="information">
+                    <label for="nameoncard">Name on card:</label>
+                    <input type="text" id="nameoncard" name="nameoncard" placeholder="Name on card"><br>
                 </div>
 
 
+                <div class="information">
+                    <label for="cardinfo">Card information</label>
+                    <input type="text" id="cardinfo" name="cardinfo" placeholder="Card Info"><br>
+                </div>
+
+                <div class="cardnumbers">
+                    <input type="text" id="mmyy" name="mmyy" placeholder="MM/YY">
+                    <input type="text" id="cvc" name="cvc" placeholder="CVC">
+                </div>
+
+            </form>
+            <button class="buttonshipping"><a href="purchasesuccessful.html">Go to Checkout</a></button>
+        </div>
     </main>
     <footer>
         <div class="footbar">
@@ -114,6 +105,7 @@
             </div>
         </div>
     </footer>
+
 
 </body>
 

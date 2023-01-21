@@ -1,0 +1,78 @@
+.purchasesuccessfullcontainer {
+    max-width: 46%;
+    height: fit-content;
+    background: #FFFFFF;
+    border: 2px solid #7D42AE;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+h1 {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.75rem, 0.5357rem + 1.4286vw, 2.25rem);
+    line-height: 58px;
+    letter-spacing: 0.1em;
+    color: #7D42AE;
+}
+
+.purchasecontent p {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.5rem, 0.3571rem + 0.9524vw, 1.5rem);
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #7D42AE;
+}
+
+#happygaming {
+    padding: 0;
+}
+
+.purchasecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purchasecontent p {
+    padding-top: 5%;
+}
+
+#line {
+    border: 0 solid #7D42AE;
+    width: 60%;
+    padding: 10%;
+}
+
+#close {
+    width: 5%;
+    align-self: flex-start;
+    padding: 2%;
+    width: 100%;
+}
+
+.purchasecontent a {
+    align-self: flex-start;
+    width: 5%;
+    padding: 2%;
+}
+
+@media (max-width: 1024px) {
+    .purchasesuccessfullcontainer {
+        max-width: 90%;
+    }
+
+    .purchasecontent a {
+        align-self: flex-start;
+        width: 6%;
+        padding: 4%;
+    }
+}
