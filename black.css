@@ -6,7 +6,7 @@
     margin: 0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 50%;
+    width: 65%;
     height: fit-content;
     background: #290332;
     border: 5px solid #000000;
@@ -15,7 +15,7 @@
 
 .customerreviews {
     text-align: center;
-    width: 70%;
+    width: 80%;
     height: 431px;
     left: calc(50% - 695px/2 - 0.5px);
     top: 1012px;
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .productinfo img {
@@ -77,7 +77,7 @@ h2 {
     font-family: 'Asar';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(0.875rem, 0.8571rem + 0.119vw, 1rem);
+    font-size: clamp(0.625rem, 0.5286rem + 0.6429vw, 1.3rem);
     line-height: 28px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -128,7 +128,7 @@ h4 {
     font-family: 'Asar';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.5714rem + 0.3571vw, 1rem);
+    font-size: clamp(0.625rem, 0.5286rem + 0.6429vw, 1.3rem);
     line-height: 25px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
@@ -184,11 +184,41 @@ h4 {
     }
 
     .customerreviews {
-        width: 90%;
+        width: 80%;
     }
 
     .reviewcontainer {
         width: 90%;
+    }
+
+    .productinfo {
+        padding-left: 0;
+    }
+
+    .producttext {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .reviewcontainer {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1715px) {
+    .customerreviews {
+        width: 50%;
+    }
+
+    .productcontainer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .customerreviews img {
+        width: 70%;
     }
 }
 
