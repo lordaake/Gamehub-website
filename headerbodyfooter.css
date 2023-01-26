@@ -17,6 +17,10 @@ main {}
     list-style-type: none;
 }
 
+menu {
+    margin: 1%;
+}
+
 
 header {
     background-blend-mode: soft-light;
