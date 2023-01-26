@@ -8,6 +8,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 0;
 }
 
 .cartnavitem {
