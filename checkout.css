@@ -21,7 +21,7 @@ h1 {
 .cardnumbers {
     text-align: center;
     padding: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 
 #mmyy,
@@ -67,4 +67,8 @@ input::placeholder {
 .cartnavitem a {
     text-decoration: none;
     color: inherit;
+}
+
+#purchasesuccessfull {
+    width: 50%;
 }

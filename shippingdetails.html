@@ -61,17 +61,12 @@
     </header>
 
     <main>
-        <div class="cartnav">
-            <div class="cartnavitemdiv" id="cartli">
-                <li class="cartnavitem"><a href="cart.html">Cart</a></li>
-            </div>
-            <div class="cartnavitemdiv" id="shippingli">
-                <li class="cartnavitem">Shipping details</li>
-            </div>
-            <div class="cartnavitemdiv" id="checkoutli">
-                <li class="cartnavitem">Checkout</li>
-            </div>
-        </div>
+        <menu class="cartnav">
+            <li class="cartnavitem cartnavitemdiv" id="cartli"><a href="cart.html">Cart</a></li>
+            <li class="cartnavitem cartnavitemdiv" id="shippingli"><a href="shippingdetails.html">Shipping details</a>
+            </li>
+            <li class="cartnavitem cartnavitemdiv" id="checkoutli">Checkout</li>
+        </menu>
         <div class="shoppingcart">
 
             <h1>Delivery Information</h1>
@@ -119,7 +114,7 @@
                     <input type="email" id="email" name="email" placeholder="Email"><br>
                 </div>
             </form>
-            <button class="buttonshipping"><a href="checkout.html">Go to Checkout</a></button>
+            <a href="checkout.html" class="buttonshipping">Go to Checkout</a>
         </div>
     </main>
     <footer>
