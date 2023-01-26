@@ -34,19 +34,19 @@
 }
 
 #explorestore:hover {
-    content: url('images/Explore\ store\ Active.png')
+    content: url('/images/ExplorestoreActive.png')
 }
 
 #playstationgames:hover {
-    content: url('images/PlaystationGames\ Active.png')
+    content: url('/images/PlaystationGamesActive.png')
 }
 
 #Pcgames:hover {
-    content: url('images/PC\ Games\ Active.png')
+    content: url('/images/PCGamesActive.png')
 }
 
 #xboxgames:hover {
-    content: url('images/Xbox\ Active.png')
+    content: url('/images/XboxActive.png')
 }
 
 @media (min-width: 350px) and (max-width: 600px) {
