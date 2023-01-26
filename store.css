@@ -105,7 +105,9 @@ h1 {
 }
 
 .addtocart {
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     margin-top: 2px;
     box-sizing: border-box;
@@ -121,16 +123,13 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     color: white;
-}
-
-.addtocart a,
-.readmore a {
     text-decoration: none;
-    color: inherit;
 }
 
 .readmore {
-    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     box-sizing: border-box;
     border: 1px solid #646464;
@@ -146,6 +145,7 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     margin-top: 5px;
+    text-decoration: none;
 }
 
 .addtocart:hover {
