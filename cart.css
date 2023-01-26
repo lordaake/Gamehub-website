@@ -133,7 +133,10 @@ h1 {
     padding-left: 5%;
 }
 
-.shoppingcart button {
+.buttonshipping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: clamp(6.875rem, 5.9286rem + 6.3095vw, 13.5rem);
     height: clamp(1.5625rem, 1.2679rem + 1.9643vw, 3.625rem);
     background: #410770;
@@ -142,9 +145,5 @@ h1 {
     color: white;
     margin-bottom: 3%;
     font-size: clamp(0.5rem, 0.4143rem + 0.5714vw, 1.1rem);
-}
-
-.shoppingcart a {
     text-decoration: none;
-    color: inherit;
 }
