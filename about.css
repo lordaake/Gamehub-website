@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+main {
+    margin-bottom: 2%;
+}
+
 .aboutdiv {
     background: #F3F3F3;
     border: 0.1875rem solid #7603AC;
@@ -51,6 +55,101 @@ h1 {
     justify-content: center;
 }
 
+.fa-comment-dots,
+#messagep {
+    margin: 3%;
+}
+
+.fa-comment-dots {
+    font-size: clamp(1.625rem, 1.3214rem + 2.0238vw, 3.75rem);
+    padding-left: 3%;
+    color: #9747FF;
+}
+
+#messagep {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.3929rem + 1.5476vw, 2.25rem);
+    line-height: 58px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+#name,
+#email,
+#subject {
+    width: 50%;
+    height: 2vw;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+
+#message {
+    width: 70%;
+    height: 10vw;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+
+.sendamessagediv {
+    max-width: 40%;
+    max-height: 20%;
+    margin: 0 auto;
+}
+
+.sendamessagebanner {
+    display: flex;
+    align-items: center;
+    background: #6300AE;
+    border-radius: 10px 10px 0 0;
+}
+
+.sendamessage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    row-gap: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #F9F9F9;
+    border: 1px solid #2400FF;
+    border-radius: 0 0 10px 10px;
+    padding-left: 8%;
+}
+
+.messagelabel {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.5rem + 0.8333vw, 1.5rem);
+    line-height: clamp(1.1875rem, 1.0179rem + 1.131vw, 2.375rem);
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+#submitbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(6.25rem, 5.4107rem + 5.5952vw, 12.125rem);
+    height: clamp(1.96875rem, 1.6875rem + 1.875vw, 3.9375rem);
+    background: #00871E;
+    border-radius: 10px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.5rem + 0.8333vw, 1.5rem);
+    line-height: 51px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 2%;
+}
+
 @media (max-width: 1024px) {
 
     .aboutus {
@@ -67,4 +166,19 @@ h1 {
     .aboutdiv {
         max-width: 90%;
     }
+
+    .sendamessagediv {
+        max-width: 90%;
+    }
+
+    #name,
+    #email,
+    #subject {
+        height: 4vw;
+    }
+
+    #message {
+        height: 30vw;
+    }
+
 }
