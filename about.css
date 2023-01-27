@@ -134,8 +134,9 @@ main {
 
 .textarea {
     background: #FFFFFF;
-    border: 2px solid #000000;
+    border: 0.125rem solid #000000;
     border-radius: 0.125rem;
+    width: 80%;
 }
 
 #submitbutton {
