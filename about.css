@@ -137,6 +137,7 @@ main {
     border: 0.125rem solid #000000;
     border-radius: 0.125rem;
     width: 80%;
+    height: 20em;
 }
 
 #submitbutton {
@@ -187,5 +188,10 @@ main {
     #message {
         height: 30vw;
     }
+}
 
+@media (max-width: 500px) {
+    .textarea {
+        height: 10em;
+    }
 }
