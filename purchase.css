@@ -2,8 +2,8 @@
     max-width: 46%;
     height: fit-content;
     background: #FFFFFF;
-    border: 2px solid #7D42AE;
-    border-radius: 7px;
+    border: 0.125rem solid #7D42AE;
+    border-radius: 0.4375rem;
     display: block;
     margin: 0 auto;
     padding-bottom: 5%;
@@ -16,7 +16,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: clamp(0.75rem, 0.5357rem + 1.4286vw, 2.25rem);
-    line-height: 58px;
+    line-height: 3.625rem;
     letter-spacing: 0.1em;
     color: #7D42AE;
 }
@@ -26,7 +26,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: clamp(0.5rem, 0.3571rem + 0.9524vw, 1.5rem);
-    line-height: 38px;
+    line-height: 2.375rem;
     text-align: center;
     letter-spacing: 0.1em;
     color: #7D42AE;

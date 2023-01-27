@@ -48,7 +48,7 @@ main {
 }
 
 .contacticons {
-    max-width: 275px;
+    max-width: 17.1875rem;
     width: 50%;
     margin: 0 auto;
     display: flex;
@@ -71,7 +71,7 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: clamp(0.625rem, 0.3929rem + 1.5476vw, 2.25rem);
-    line-height: 58px;
+    line-height: 3.625rem;
     letter-spacing: 0.1em;
     color: #FFFFFF;
 }
@@ -83,15 +83,15 @@ main {
     height: 2vw;
     background: #FFFFFF;
     border: 2px solid #000000;
-    border-radius: 2px;
+    border-radius: 0.125rem;
 }
 
 #message {
     width: 70%;
     height: 10vw;
     background: #FFFFFF;
-    border: 2px solid #000000;
-    border-radius: 2px;
+    border: 0.125rem solid #000000;
+    border-radius: 0.125rem;
 }
 
 .sendamessagediv {
@@ -104,7 +104,7 @@ main {
     display: flex;
     align-items: center;
     background: #6300AE;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
 }
 
 .sendamessage {
@@ -117,8 +117,8 @@ main {
     padding-top: 5%;
     padding-bottom: 5%;
     background: #F9F9F9;
-    border: 1px solid #2400FF;
-    border-radius: 0 0 10px 10px;
+    border: 0.0625rem solid #2400FF;
+    border-radius: 0 0 0.625rem 0.625rem;
     padding-left: 8%;
 }
 

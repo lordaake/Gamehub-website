@@ -10,7 +10,7 @@
 }
 
 #playboxgames {
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 
@@ -52,7 +52,7 @@
 @media (min-width: 350px) and (max-width: 600px) {
 
     .images {
-        width: 327px;
+        width: 20.4375rem;
     }
 }
 

@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
-    grid-row-gap: 10px;
+    grid-row-gap: 0.625rem;
     margin: 5% 20% 5% 20%;
 }
 
@@ -32,8 +32,8 @@ input {
     height: clamp(1.5rem, 1.2857rem + 1.4286vw, 3rem);
     width: clamp(6.25rem, 3.0804rem + 21.131vw, 28.4375rem);
     margin-left: clamp(0rem, 0.4464rem + -2.9762vw, -3.125rem);
-    border: 1px solid rgba(17, 17, 19, 0.2);
-    border-radius: 4px;
+    border: 0.0625rem solid rgba(17, 17, 19, 0.2);
+    border-radius: 0.25rem;
 }
 
 input::placeholder {

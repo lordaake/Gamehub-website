@@ -26,8 +26,8 @@ header {
     background-blend-mode: soft-light;
     background: linear-gradient(177.8deg, #460180 5.57%, #1d101000 98.2%);
     background-repeat: no-repeat;
-    box-shadow: 0 0 8px 8px #1d101055;
-    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 0.5rem 0.5rem #1d101055;
+    border-bottom: 0.0625rem solid transparent;
 }
 
 .logo img {
@@ -134,8 +134,8 @@ header {
 }
 
 #searchbutton:hover .fa-solid {
-    border-bottom: 1px solid red;
-    padding-bottom: 1px;
+    border-bottom: 0.0625rem solid red;
+    padding-bottom: 0.0625rem;
     cursor: pointer;
 }
 
@@ -190,7 +190,7 @@ footer {
 }
 
 .subscribeitems {
-    margin: 8px 0 0 0;
+    margin: 0.5rem 0 0 0;
     text-align: center;
     font-size: clamp(0.5rem, 0.4286rem + 0.4762vw, 1rem);
 }
@@ -215,10 +215,10 @@ footer {
     margin: auto;
     font-size: clamp(0.4rem, 0.3379rem + 0.4138vw, 1rem);
     margin-top: calc(0.2rem + (0.625 - 0.2) * ((100vw - 240px) / (100 - 1920)));
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
-@media (max-width: 240px) {
+@media (max-width: 15rem) {
     footer {
         height: 7rem;
     }
@@ -236,6 +236,6 @@ footer {
 
 @media (max-width: 240px) {
     .footbar {
-        width: 200px;
+        width: 12.5rem;
     }
 }

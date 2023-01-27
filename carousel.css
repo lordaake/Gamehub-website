@@ -19,7 +19,7 @@
 
 .slides-item {
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: flex;
     flex-shrink: 0;
     padding-top: clamp(0.625rem, 0.5357rem + 0.5952vw, 1.25rem);
@@ -73,10 +73,10 @@
     width: clamp(0.78125rem, 0.6696rem + 0.744vw, 1.5625rem);
 }
 
-@media (min-width: 385px) and (max-width: 600px) {
+@media (min-width: 24.0625rem) and (max-width: 37.5rem) {
 
     .images {
-        width: 380px;
+        width: 23.75rem;
     }
 }
 

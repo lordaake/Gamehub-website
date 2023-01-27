@@ -5,7 +5,7 @@
     width: clamp(23.75rem, 5.84rem + 47.76vw, 51.241875rem);
     height: clamp(1.7rem, 1.3357rem + 2.4286vw, 4.25rem);
     background: linear-gradient(180deg, rgba(53, 52, 119, 0.47) 17.49%, rgba(55, 54, 73, 0.81) 83.78%);
-    border: 1px solid #000000;
+    border: 0.0625rem solid #000000;
     border-radius: clamp(0.5rem, 0.4107rem + 0.5952vw, 1.125rem);
 }
 
@@ -39,18 +39,18 @@
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(53, 52, 119, 0.47) 17.49%, rgba(55, 54, 73, 0.81) 83.78%);
     max-width: fit-content;
-    border: 3px solid rgba(83, 78, 125, 0.26);
-    border-radius: 18px 18px 0px 0px;
-    margin-bottom: 30px;
+    border: 0.1875rem solid rgba(83, 78, 125, 0.26);
+    border-radius: 1.125rem 1.125rem 0px 0px;
+    margin-bottom: 1.875rem;
     margin-top: 0.5rem;
 }
 
 .storeimagecontainer {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(3, minmax(271.3px, 1fr));
+    grid-template-columns: repeat(3, minmax(16.9563rem, 1fr));
     grid-template-rows: repeat(4, 1fr);
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
     line-height: clamp(2rem, -0.5179rem + 3.4524vw, 3.625rem);
     color: #000000;
     font-weight: bolder;
-    text-shadow: 1px 5px 4px rgba(153, 153, 136, 0.25);
+    text-shadow: 0.0625rem 0.3125rem 0.25rem rgba(153, 153, 136, 0.25);
     padding-top: clamp(0rem, -0.1874rem + 1.249vw, 1rem);
     color: white;
 }
@@ -76,19 +76,19 @@ h1 {
 }
 
 .storeimages {
-    padding-top: 10px;
-    max-width: 170px;
+    padding-top: 0.625rem;
+    max-width: 10.625rem;
 }
 
 .price {
     box-sizing: border-box;
-    margin-top: -5px;
+    margin-top: -0.3125rem;
     display: grid;
-    grid-template-columns: 170px;
-    grid-template-rows: 20px 40px 55px;
+    grid-template-columns: 10.625rem;
+    grid-template-rows: 1.25rem 2.5rem 3.4375rem;
     background: #01200A;
-    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25), inset 0px -2px 6px 4px rgba(158, 255, 185, 0.51);
-    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0.1875rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25), inset 0px -0.125rem 0.375rem 0.25rem rgba(158, 255, 185, 0.51);
+    border-radius: 0px 0px 0.625rem 0.625rem;
 }
 
 .price p {
@@ -98,10 +98,10 @@ h1 {
     font-style: normal;
     font-weight: 600;
     font-size: clamp(0.625rem, 0.5804rem + 0.2976vw, 0.9375rem);
-    line-height: 24px;
+    line-height: 1.5rem;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 2px;
+    padding-top: 0.125rem;
 }
 
 .addtocart {
@@ -109,19 +109,19 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 2px;
+    margin-top: 0.125rem;
     box-sizing: border-box;
-    width: 111px;
-    height: 33px;
+    width: 6.9375rem;
+    height: 2.0625rem;
     background: #0A7C23;
-    border: 1px solid #2B2A49;
-    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.25);
-    border-radius: 52px;
+    border: 0.0625rem solid #2B2A49;
+    box-shadow: 0px 0.0625rem 0.25rem rgba(255, 255, 255, 0.25);
+    border-radius: 3.25rem;
     font-family: 'Baloo 2';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     color: white;
     text-decoration: none;
 }
@@ -132,33 +132,33 @@ h1 {
     align-items: center;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 1px solid #646464;
-    filter: drop-shadow(0px 1px 4px rgba(255, 255, 255, 0.25));
+    border: 0.0625rem solid #646464;
+    filter: drop-shadow(0px 0.0625rem 0.25rem rgba(255, 255, 255, 0.25));
     background-color: transparent;
     color: white;
-    border-radius: 52px;
-    width: 111px;
-    height: 33px;
+    border-radius: 3.25rem;
+    width: 6.9375rem;
+    height: 2.0625rem;
     font-family: 'Baloo 2';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-top: 0.3125rem;
     text-decoration: none;
 }
 
 .addtocart:hover {
     background: #37B052;
-    border: 1px solid #292847;
-    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.25);
-    border-radius: 52px;
+    border: 0.0625rem solid #292847;
+    box-shadow: 0px 0.0625rem 0.25rem rgba(255, 255, 255, 0.25);
+    border-radius: 3.25rem;
 }
 
 .readmore:hover {
-    border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 1px 4px rgba(255, 255, 255, 0.25));
-    border-radius: 52px;
+    border: 0.0625rem solid #FFFFFF;
+    filter: drop-shadow(0px 0.0625rem 0.25rem rgba(255, 255, 255, 0.25));
+    border-radius: 3.25rem;
 }
 
 .gamebanner {
@@ -168,18 +168,18 @@ h1 {
 
 @media (max-width: 1200px) {
     .storeimagecontainer {
-        grid-template-columns: repeat(2, minmax(180px, 271.3px));
+        grid-template-columns: repeat(2, minmax(11.25rem, 17.069rem));
     }
 }
 
 @media (max-width: 1024px) {
     .images {
-        max-width: 583px;
+        max-width: 36.44rem;
         width: 95%;
     }
 
     .storenav {
-        max-width: 583px;
+        max-width: 36.44rem;
         width: 95%;
     }
 }
@@ -198,7 +198,7 @@ h1 {
     }
 
     .storeimagecontainer {
-        grid-template-columns: repeat(2, minmax(100px, 271.3px));
+        grid-template-columns: repeat(2, minmax(6.25rem, 17.069rem));
     }
 
     .price {
@@ -207,7 +207,7 @@ h1 {
 
     .addtocart,
     .readmore {
-        width: clamp(4.10653125rem, -1.1199rem + 34.8427vw, 6.9375rem);
+        width: clamp(4.1065rem, -1.1199rem + 34.8427vw, 6.9375rem);
         font-size: clamp(0.625rem, -0.0673rem + 4.6154vw, 1rem);
     }
 
