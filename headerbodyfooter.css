@@ -17,11 +17,6 @@ main {}
     list-style-type: none;
 }
 
-menu {
-    margin: 1%;
-}
-
-
 header {
     background-blend-mode: soft-light;
     background: linear-gradient(177.8deg, #460180 5.57%, #1d101000 98.2%);
@@ -52,6 +47,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 1%;
 }
 
 .store,
@@ -147,8 +143,8 @@ footer {
     background-size: 100%;
     color: white;
     height: clamp(5rem, 4.2857rem + 4.7619vw, 10rem);
-    bottom: 0;
     position: static;
+    bottom: 0;
 }
 
 .footbar {
@@ -218,6 +214,59 @@ footer {
     border-radius: 0.3125rem;
 }
 
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 14.5625rem;
+    height: 100%;
+    background: #3E2151;
+    border: 1px solid #000000;
+    border-radius: 0px 0px 10px 0px;
+    z-index: 1;
+}
+
+.burgeroption {
+    text-decoration: none;
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.mobilenav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background: #3E2151;
+    width: 100vw;
+    height: 6rem;
+    border: 1px solid #000000;
+    bottom: 0;
+    margin-top: 10%;
+    z-index: 10;
+}
+
+.mobilenavimg {
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#burger-menu {
+    visibility: hidden;
+}
+
+activateburgermenu:hover>#burger-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media (max-width: 15rem) {
     footer {
         height: 7rem;
@@ -237,5 +286,28 @@ footer {
 @media (max-width: 240px) {
     .footbar {
         width: 12.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobilenav {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .mobilenavimg {
+        width: clamp(2.1875rem, 1.9005rem + 1.9133vw, 3.125rem);
+        height: clamp(2.1875rem, 1.9005rem + 1.9133vw, 3.125rem);
+    }
+
+    .margin {
+        color: red;
+        height: 98px;
+    }
+
+    footer {
+        margin-top: 0;
     }
 }
