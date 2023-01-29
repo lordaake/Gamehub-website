@@ -41,7 +41,8 @@
     background-color: grey;
 }
 
-h1 {
+.h1cart {
+    align-self: center;
     height: fit-content;
     font-family: 'Baloo 2';
     font-weight: bolder;

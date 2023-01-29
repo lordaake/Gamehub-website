@@ -95,7 +95,7 @@
     padding-left: 3%;
 }
 
-h1 {
+.h1black {
     font-family: 'Asar';
     font-style: normal;
     font-weight: 400;
@@ -107,7 +107,7 @@ h1 {
     padding-bottom: 2%;
 }
 
-h2 {
+.h2black {
     font-family: 'Asar';
     font-style: normal;
     font-weight: 400;
