@@ -232,8 +232,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    row-gap: 1rem;
-    padding-top: 3.125rem;
+    row-gap: 0.9rem;
+    padding-top: 10%;
 }
 
 .burgeroption {
@@ -241,7 +241,7 @@ footer {
     font-family: 'Audiowide';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 1.5625rem;
     letter-spacing: 0.1em;
     color: #FFFFFF;
