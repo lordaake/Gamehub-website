@@ -98,9 +98,6 @@ header {
     padding-left: 2.1875rem;
 }
 
-/* Make sure that the calc function is being used correctly.
- The syntax should be calc(initial value + (final value - initial value) * ((100vw - minimum width) / (maximum width - minimum width))). */
-
 #search::placeholder {
     color: rgba(128, 128, 128, 0.698);
     font-family: 'Audiowide';
@@ -111,6 +108,7 @@ header {
 #searchbutton {
     background: transparent;
     border: transparent;
+    color: white;
 }
 
 .search-bar {
@@ -161,8 +159,6 @@ footer {
     color: white;
     font-size: clamp(0.875rem, 0.6875rem + 1.25vw, 2.1875rem);
 }
-
-/* calc(initial value + (final value - initial value) * ((100vw - minimum width) / (maximum width - minimum width))) */
 
 .socialmedia p {
     text-align: center;
