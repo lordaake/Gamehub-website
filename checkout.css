@@ -8,9 +8,8 @@
     background-color: white;
 }
 
-.deliveryinformation {
-    display: block;
-}
+.deliveryinformation {}
+
 
 .information {
     display: flex;
@@ -20,22 +19,25 @@
 }
 
 .cardnumbers {
-    text-align: center;
     padding: 2%;
     padding-bottom: 7%;
 }
 
-#mmyy,
-#cvc {
-    width: 41.1%;
+.cardnumbers label {
+    font-size: clamp(0.5rem, 0.4rem + 0.6667vw, 1.2rem);
 }
 
-#cvc {
-    margin-left: 2%;
+.cvcmmyy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 #cardinfo,
-#nameoncard {
+#nameoncard,
+#mmyy,
+#cvc {
     margin-top: 2%;
     max-width: 82%;
     width: 100%;

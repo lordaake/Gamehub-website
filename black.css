@@ -16,6 +16,7 @@
 .addtocartblack {
     width: 65%;
     height: 30%;
+    color: white;
     background: #0A7C23;
     border: 0.0625rem solid #2B2A49;
     box-shadow: 0px 0.0625rem 0.25rem rgba(255, 255, 255, 0.25);
@@ -222,6 +223,8 @@ h4 {
     width: 70%;
     height: 1.5625rem;
 }
+
+
 
 .addtocart:hover {
     color: #aacea8;
