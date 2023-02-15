@@ -294,9 +294,8 @@ h4 {
     }
 }
 
-label i.fa {
+i.fa {
     color: rgb(250, 255, 203);
-    border:
 }
 
 label input[type="radio"]:checked~i.fa {
