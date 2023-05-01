@@ -1,7 +1,6 @@
 async function loadGameData() {
     const response = await fetch("https://api.noroff.dev/api/v1/gamehub");
     const data = await response.json();
-    console.log(data);
     return data;
 }
 
