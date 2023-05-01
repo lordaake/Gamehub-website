@@ -30,7 +30,8 @@
 }
 
 .blackimg {
-    width: 50%;
+    max-width: 10.755rem;
+    width: 100%;
 }
 
 .price {
@@ -42,7 +43,8 @@
     box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25), inset 0px -0.125rem 0.5625rem 0.4375rem rgba(159, 254, 185, 0.25);
     border-radius: 0px 0px 0.625rem 0.625rem;
     height: clamp(6.25rem, 5.625rem + 4.1667vw, 10.625rem);
-    width: 50%;
+    max-width: 10.755rem;
+    width: 100%;
     padding-bottom: 2%;
 }
 
@@ -100,12 +102,13 @@
     font-family: 'Asar';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.5357rem + 0.5952vw, 1.25rem);
+    font-size: 2rem;
     line-height: 2.1875rem;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     text-align: left;
     padding-bottom: 2%;
+    margin: 1vh;
 }
 
 .h2black {
@@ -231,6 +234,12 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+
+    .h1black {
+        font-size: clamp(1.5rem, 1.3469rem + 1.0204vw, 2rem);
+    }
+
+
     .productcontainer {
         width: 95%;
     }
@@ -249,10 +258,12 @@ h4 {
     }
 
     .blackimg {
+        max-width: 500px;
         width: clamp(6.375rem, 2.2041rem + 27.8061vw, 20rem);
     }
 
     .price {
+        max-width: 500px;
         width: clamp(6.375rem, 2.2041rem + 27.8061vw, 20rem);
         height: clamp(7rem, 6.0816rem + 6.1224vw, 10rem);
         margin: 0;
