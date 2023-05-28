@@ -7,8 +7,7 @@
     display: block;
     margin: 0 auto;
     padding-bottom: 5%;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-block: 2vh;
 }
 
 h1 {

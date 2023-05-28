@@ -21,6 +21,7 @@ main {
 
 header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
     background: linear-gradient(177.8deg, #460180 5.57%, rgb(65, 20, 102, 1) 98.2%);
