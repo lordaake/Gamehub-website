@@ -10,10 +10,6 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
-.storeimagediv {
-    margin-bottom: 0;
-}
-
 .xboxsale {
     display: flex;
     justify-content: center;
