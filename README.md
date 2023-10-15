@@ -22,12 +22,8 @@ To get started with Gamehub, follow these steps:
 1. Clone the repo:
 git clone https://github.com/lordaake/Gamehub-website.git
 
-2. Install the dependencies:
-npm install
-
 ## Running
-To run the app, use the following command:
-npm run start
+To access the Gamehub website, visit the [deployed](https://gamehub-87.netlify.app/) site.
 
 ## Contributing
 I welcome contributions to Gamehub. Feel free to open a pull request with your proposed changes or enhancements.
